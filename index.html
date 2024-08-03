@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <div class="intro">
+                <h1>Welcome to My Portfolio</h1>
+                <img src="https://tse4.mm.bing.net/th?id=OIP.Nw1A3CGvx46PBqyzaRirGQHaKs&pid=Api&P=0&h=180" alt="Profile Photo">
+                <p><b>Hi, I'm [Name], a web developer with a passion for creating amazing websites and applications.</b></p>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hi, I'm [Name], a passionate and dedicated web developer with a knack for creating seamless, user-friendly web experiences. I specialize in both front-end and back-end development, making me a versatile asset for any project. My journey into web development began with a curiosity for how websites work, and it quickly turned into a full-fledged career that I love.</p>
+            <h3>Education</h3>
+            <ul>
+                <li>Bachelor's in Computer Science - University XYZ</li>
+                <li>Master's in Web Development - University ABC</li>
+            </ul>
+            <h3>Professional Experience</h3>
+            <ul>
+                <li>Web Developer at Company A</li>
+                <li>Front-End Developer at Company B</li>
+            </ul>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Project 1</h3>
+                <p>[Description of project 1]</p>
+                <a href="[link-to-project-1]" target="_blank">View Project</a>
+            </div>
+            <div class="project">
+                <h3>Project 2</h3>
+                <p>[Description of project 2]</p>
+                <a href="[link-to-project-2]" target="_blank">View Project</a>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skill">
+                <h3>HTML</h3>
+                <p>Proficient in creating well-structured, semantic HTML5 markup for web pages and applications.</p>
+            </div>
+            <div class="skill">
+                <h3>CSS</h3>
+                <p>Skilled in styling web pages using CSS, including layouts, responsiveness, and animations.</p>
+            </div>
+            <div class="skill">
+                <h3>JavaScript</h3>
+                <p>Experienced in client-side scripting with JavaScript for dynamic and interactive web experiences.</p>
+            </div>
+            <div class="skill">
+                <h3>React</h3>
+                <p>Proficient in building single-page applications (SPAs) and reusable UI components using React framework.</p>
+            </div>
+            <div class="skill">
+                <h3>Node.js</h3>
+                <p>Familiar with server-side JavaScript development using Node.js, including REST APIs and backend services.</p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <form id="contact-form" onsubmit="sendEmail(event)">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+            <div class="social">
+                <a href="[your-linkedin-profile]" target="_blank">LinkedIn</a>
+                <a href="[your-github-profile]" target="_blank">GitHub</a>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
